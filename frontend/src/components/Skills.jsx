@@ -9,7 +9,7 @@ const Skills = () => {
             icon: <Code size={22} />,
             color: '#64ffda',
             bgGlow: 'rgba(100, 255, 218, 0.08)',
-            skills: ['C++', 'JavaScript', 'PHP']
+            skills: ['Python', 'C', 'C++', 'Java', 'JavaScript', 'PHP']
         },
         {
             title: 'Frontend',
@@ -30,7 +30,7 @@ const Skills = () => {
             icon: <Database size={22} />,
             color: '#47A248',
             bgGlow: 'rgba(71, 162, 72, 0.08)',
-            skills: ['MySQL', 'MongoDB']
+            skills: ['MySQL', 'MongoDB', 'PostgreSQL']
         },
         {
             title: 'Tools',
@@ -51,7 +51,7 @@ const Skills = () => {
             icon: <Network size={22} />,
             color: '#facc15',
             bgGlow: 'rgba(250, 204, 21, 0.08)',
-            skills: ['DSA', 'OOP', 'DBMS', 'Operating Systems']
+            skills: ['DSA', 'OOP', 'DBMS', 'Operating Systems', 'Computer Networks']
         }
     ];
 
@@ -97,21 +97,20 @@ const Skills = () => {
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, margin: "-30px" }}
-                            className={`group relative rounded-xl border border-slate-700/50 p-5 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl cursor-default ${
-                                index === skillCategories.length - 1 ? 'sm:col-span-1 col-span-2' : ''
-                            }`}
+                            className={`group relative rounded-2xl border border-white/5 p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(56,189,248,0.1)] cursor-default overflow-hidden bg-darker/40 backdrop-blur-md ${index === skillCategories.length - 1 ? 'sm:col-span-1 col-span-2' : ''
+                                }`}
                             style={{
-                                background: `linear-gradient(135deg, ${category.bgGlow}, transparent 60%)`,
+                                background: `linear-gradient(135deg, ${category.bgGlow}, transparent 70%), rgba(10,10,10,0.4)`,
                             }}
                             whileHover={{
-                                borderColor: `${category.color}40`,
+                                borderColor: `${category.color}50`,
                             }}
                         >
                             {/* Subtle glow on hover */}
                             <div
-                                className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                                className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
                                 style={{
-                                    boxShadow: `inset 0 0 30px ${category.bgGlow}`,
+                                    boxShadow: `inset 0 0 50px ${category.bgGlow}`,
                                 }}
                             ></div>
 

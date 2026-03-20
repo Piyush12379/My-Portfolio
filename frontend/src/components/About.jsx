@@ -22,7 +22,7 @@ const About = () => {
                             Since then, it's evolved into a passion for building complex, interactive, and visually stunning applications.
                         </p>
                         <p className="mb-4">
-                            Currently, I am a B.Tech Computer Science student at <span className="text-primary">Lovely Professional University</span>, maintaining a CGPA of 8.27. I continuously strive to solve real-world problems. I have solved over <span className="text-primary font-bold">300+ coding problems</span> across LeetCode, GeeksforGeeks, and HackerRank to refine my problem-solving skills and algorithmic thinking.
+                            Currently, I am a B.Tech Computer Science student at <span className="text-primary">Lovely Professional University</span>, maintaining a CGPA of 8.27. I continuously strive to solve real-world problems. I have solved over <span className="text-primary font-bold">400+ coding problems</span> across LeetCode, GeeksforGeeks, and HackerRank to refine my problem-solving skills and algorithmic thinking.
                         </p>
                         <p>
                             I'm passionate about full-stack development, building scalable applications, and turning complex problems into elegant solutions.
@@ -31,10 +31,10 @@ const About = () => {
 
                     {/* Image / Graphic */}
                     <div className="relative w-full max-w-sm mx-auto">
-                        <div className="absolute inset-0 bg-primary/20 rounded z-10 translate-x-4 translate-y-4 rounded-lg group-hover:translate-x-2 group-hover:translate-y-2 transition-all"></div>
-                        <div className="relative z-20 bg-[#0f172a] rounded overflow-hidden border-2 border-slate-700 flex justify-center items-center group cursor-pointer hover:border-primary transition-colors">
-                            <div className="absolute inset-0 bg-primary/10 mix-blend-multiply group-hover:bg-transparent transition-all duration-300"></div>
-                            <img src="/profile_picture.jpg" alt="Piyush Raj Profile" className="w-full h-auto max-h-[420px] object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500" />
+                        <div className="absolute inset-0 bg-primary/20 rounded-2xl z-10 translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"></div>
+                        <div className="relative z-20 glass-panel rounded-2xl overflow-hidden flex justify-center items-center group cursor-pointer hover:border-primary/50 transition-all duration-500 hover:shadow-[0_0_30px_rgba(56,189,248,0.15)]">
+                            <div className="absolute inset-0 bg-primary/10 mix-blend-overlay group-hover:bg-transparent transition-all duration-500 z-10"></div>
+                            <img src="/profile_picture.jpg" alt="Piyush Raj Profile" className="w-full h-auto max-h-[420px] object-cover object-top filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] relative z-0" />
                         </div>
                     </div>
                 </div>

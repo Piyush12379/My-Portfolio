@@ -21,7 +21,7 @@ const TerminalApp = () => {
 
         switch (cmd) {
             case 'help':
-                newHistory.push({ type: 'system', content: 'Available commands: whoami, skills, education, experience, achievements, projects, clear, contact' });
+                newHistory.push({ type: 'system', content: 'Available commands: whoami, skills, education, experience, achievements, certifications, projects, clear, contact' });
                 break;
             case 'whoami':
                 newHistory.push({ type: 'system', content: 'Piyush Raj - Software Engineer, Problem Solver, B.Tech CSE student at LPU.' });
@@ -37,6 +37,9 @@ const TerminalApp = () => {
                 break;
             case 'achievements':
                 newHistory.push({ type: 'system', content: '⭐ 5-Star HackerRank in C++\n⭐ 400+ DSA Problems on LeetCode & GeeksforGeeks' });
+                break;
+            case 'certifications':
+                newHistory.push({ type: 'system', content: '1. NPTEL Social Networks\n2. Master Generative AI (Infosys)\n3. Python Programming (CipherSchools)' });
                 break;
             case 'projects':
                 newHistory.push({ type: 'system', content: '1. Saanidhya\n2. Real-Time Process Monitor\n3. Student Attendance System' });

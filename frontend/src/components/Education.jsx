@@ -57,12 +57,12 @@ const Education = () => {
                             className="relative pl-8 md:pl-12 group"
                         >
                             {/* Timeline Node */}
-                            <div className={`absolute -left-[21px] top-1 w-10 h-10 rounded-full border-4 border-dark flex items-center justify-center transition-transform duration-500 group-hover:scale-110 z-10 ${edu.active ? 'bg-primary text-dark border-primary/30 glow-primary' : 'bg-slate-800 text-slate-400 group-hover:text-primary group-hover:border-primary/50'}`}>
+                            <div className={`absolute -left-[21px] top-1 w-10 h-10 rounded-full border-4 border-background flex items-center justify-center transition-transform duration-500 group-hover:scale-110 z-10 shadow-lg ${edu.active ? 'bg-primary text-background border-primary/30 glow-primary' : 'bg-darker text-textLight group-hover:text-primary group-hover:border-primary/50'}`}>
                                 {React.cloneElement(edu.icon, { size: 18 })}
                             </div>
 
                             {/* Content Card */}
-                            <div className="bg-[#112240] p-6 md:p-8 rounded-xl shadow-2xl border border-slate-700/50 relative overflow-hidden group-hover:-translate-y-2 group-hover:border-primary/30 transition-all duration-500 hover:shadow-primary/5">
+                            <div className="glass-panel p-6 md:p-8 rounded-2xl relative overflow-hidden group-hover:-translate-y-2 hover:border-primary/30 transition-all duration-500 hover:shadow-[0_0_30px_rgba(56,189,248,0.1)]">
                                 {/* Gradient Background Accent */}
                                 <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${edu.color} opacity-70 group-hover:opacity-100 transition-opacity`}></div>
 

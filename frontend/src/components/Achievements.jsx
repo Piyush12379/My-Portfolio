@@ -19,29 +19,29 @@ const Achievements = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <motion.div
                         whileHover={{ y: -5 }}
-                        className="bg-[#112240] p-8 rounded shadow-2xl border border-slate-700/50 flex flex-col gap-4 items-start relative overflow-hidden group"
+                        className="glass-panel p-8 rounded-2xl flex flex-col gap-4 items-start relative overflow-hidden group hover:border-primary/30 transition-all duration-500 hover:shadow-[0_0_30px_rgba(56,189,248,0.15)]"
                     >
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-bl-[100px] -z-10 group-hover:bg-primary/10 transition-colors"></div>
-                        <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-2">
-                            <Award size={24} />
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[100px] -z-10 group-hover:bg-primary/20 transition-colors duration-500 blur-xl"></div>
+                        <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-2 shadow-inner border border-primary/20">
+                            <Award size={28} />
                         </div>
-                        <h3 className="text-xl font-bold text-textMain">5-Star HackerRank</h3>
+                        <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-textLight">5-Star HackerRank</h3>
                         <p className="text-textLight leading-relaxed">
-                            Achieved a <span className="text-primary font-semibold">5-star rating</span> in C++ on HackerRank, showcasing strong programming skills and mastery over data structures.
+                            Achieved a <span className="text-primary font-semibold drop-shadow-md">5-star rating</span> in C++ on HackerRank, showcasing strong programming skills and mastery over data structures.
                         </p>
                     </motion.div>
 
                     <motion.div
                         whileHover={{ y: -5 }}
-                        className="bg-[#112240] p-8 rounded shadow-2xl border border-slate-700/50 flex flex-col gap-4 items-start relative overflow-hidden group"
+                        className="glass-panel p-8 rounded-2xl flex flex-col gap-4 items-start relative overflow-hidden group hover:border-primary/30 transition-all duration-500 hover:shadow-[0_0_30px_rgba(56,189,248,0.15)]"
                     >
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-bl-[100px] -z-10 group-hover:bg-primary/10 transition-colors"></div>
-                        <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-2">
-                            <Code2 size={24} />
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[100px] -z-10 group-hover:bg-primary/20 transition-colors duration-500 blur-xl"></div>
+                        <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-2 shadow-inner border border-primary/20">
+                            <Code2 size={28} />
                         </div>
-                        <h3 className="text-xl font-bold text-textMain">400+ DSA Problems</h3>
+                        <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-textLight">400+ DSA Problems</h3>
                         <p className="text-textLight leading-relaxed">
-                            Solved over <span className="text-primary font-semibold">400+ DSA problems</span> on LeetCode and GeeksforGeeks, demonstrating consistency and problem-solving ability.
+                            Solved over <span className="text-primary font-semibold drop-shadow-md">400+ DSA problems</span> on LeetCode and GeeksforGeeks, demonstrating consistency and problem-solving ability.
                         </p>
                     </motion.div>
                 </div>

@@ -17,11 +17,11 @@ const Experience = () => {
 
                 <div className="flex flex-col md:flex-row gap-8">
                     {/* Left Timeline */}
-                    <div className="border-l-2 border-slate-700 pl-6 md:w-1/3 space-y-8">
-                        <div className="relative">
-                            <div className="absolute -left-[29px] top-1 w-4 h-4 rounded-full bg-primary border-4 border-dark"></div>
-                            <h3 className="text-lg font-medium text-textMain cursor-pointer hover:text-primary transition-colors">ByteXL</h3>
-                            <p className="font-mono text-sm text-textLight">Jun 2025 - Jul 2025</p>
+                    <div className="border-l-2 border-primary/20 pl-6 md:w-1/3 space-y-8 relative">
+                        <div className="relative group">
+                            <div className="absolute -left-[31px] top-1 w-5 h-5 rounded-full bg-primary border-4 border-background shadow-[0_0_10px_rgba(56,189,248,0.5)] group-hover:scale-125 transition-transform duration-300"></div>
+                            <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-textLight cursor-pointer transition-colors">ByteXL</h3>
+                            <p className="font-mono text-sm tracking-widest text-primary uppercase mt-1">Jun 2025 - Jul 2025</p>
                         </div>
                         {/* More timeline items could go here */}
                     </div>
