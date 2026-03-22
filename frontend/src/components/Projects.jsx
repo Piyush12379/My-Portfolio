@@ -8,7 +8,7 @@ const Projects = () => {
             title: "Mark It – Attendance Management System",
             description: "A comprehensive full-stack web-based attendance management system developed to automate attendance tracking. It supports multiple user roles (Admin, Teacher, Student) with functionalities like managing classes, assigning courses, and marking real-time attendance. Features include role-based access control, secure JWT/Bcrypt authentication, and efficient MongoDB backend integration.",
             tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-            github: "#",
+            github: "https://github.com/Piyush12379/STUDENT_ATTENDENCE.git",
             external: "#",
             image: "/student_dashboard_ui.png"
         },
@@ -16,7 +16,7 @@ const Projects = () => {
             title: "Real-Time Process Monitoring Dashboard",
             description: "A web-based application that displays live system performance data such as CPU usage, memory usage, disk activity, network statistics, and running processes. Built with dynamic graphs that fetch real-time data from Node.js backend APIs to provide an interactive user experience and rapid system performance analysis.",
             tech: ["HTML/CSS", "JavaScript", "Node.js", "Express.js", "Chart.js"],
-            github: "#",
+            github: "https://github.com/Piyush12379/OS-Project.git",
             external: "#",
             image: "/dashboard_screenshot.png"
         },
@@ -24,7 +24,7 @@ const Projects = () => {
             title: "Saanidhya (Educational Platform)",
             description: "A full-stack web platform designed to support the learning and development of specially-abled children through educational content, motivational videos, and music therapy. Features user authentication, secure feedback forms, and a responsive interface to ensure an inclusive and positive digital learning space.",
             tech: ["PHP", "MySQL", "JavaScript", "Tailwind CSS"],
-            github: "#",
+            github: "https://github.com/Piyush12379/saanidhya-for-special-children.git",
             external: "#",
             image: "/education_platform_ui.png"
         }

@@ -47,7 +47,7 @@ const Home = () => {
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
                         className="text-textLight max-w-2xl text-lg md:text-xl mt-8 leading-relaxed font-light"
                     >
-                        I'm a software engineer specializing in building (and occasionally designing) exceptional, hyper-clean digital experiences. Currently, I'm focused on finishing my B.Tech in CSE at Lovely Professional University.
+                      I'm a full stack web developer specializing in building (and occasionally designing) exceptional, clean, and user-friendly digital experiences. Currently, I'm focused on completing my B.Tech in Computer Science and Engineering at Lovely Professional University.
                     </motion.p>
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
